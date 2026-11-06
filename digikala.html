@@ -13,11 +13,12 @@
       type="imge/x-icon"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
   </head>
   <body>
     <!--#region wrapper-->
     <div class="wrapper">
-      <!-- #repion header -->
+      <!-- #region header -->
       <div class="header">
         <div class="header-banner">
           <img src="./imge/header-banner.webp" alt="header-banner" />
@@ -115,13 +116,31 @@
                 src="./imge/svg/location-pin-alt-1-svgrepo-com.svg"
                 alt="location-svg"
               />
-              انتخاب ادرس
+              انتخاب آدرس
             </p>
           </div>
         </div>
+        <!-- #endregion header -->
       </div>
-      <!-- #endrepion header -->
     </div>
     <!--#endregion wrapper-->
+    <!-- #region slider -->
+    <swiper-container
+      class="mySwiper"
+      navigation="true"
+      pagination="true"
+      keyboard="true"
+      mousewheel="true"
+      css-mode="true"
+    >
+      <a href="./css/slider.css"></a>
+      <swiper-slide><img src="./imge/img-1.png" alt="" /></swiper-slide>
+      <swiper-slide><img src="./imge/img-2.png" alt="" /></swiper-slide>
+      <swiper-slide><img src="./imge/img-3.png" alt="" /></swiper-slide>
+      <swiper-slide><img src="./imge/img-4.png" alt="" /></swiper-slide>
+    </swiper-container>
+    <!-- #endregion slider -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-element-bundle.min.js"></script>
   </body>
 </html>

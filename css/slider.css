@@ -1,0 +1,13 @@
+.swiper-horizontal .swiper-button-next,
+.swiper-horizontal.swiper-rtl .swiper-button-prev,
+.swiper-horizontal.swiper-rtl ~ .swiper-button-prev,
+.swiper-horizontal ~ .swiper-button-next {
+  left: auto;
+  right: var(--swiper-navigation-sides-offset, 4px);
+  background-color: whitesmoke;
+  color: black;
+  padding: 5px;
+  top: 10%;
+  border-radius: 50px;
+  left: 80px;
+}
