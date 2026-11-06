@@ -12,6 +12,7 @@
 }
 :root {
   --font-family: yekan;
+  font-size: x-large;
 }
 .wrapper {
   width: 100%;
