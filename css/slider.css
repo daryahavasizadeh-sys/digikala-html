@@ -1,13 +1,24 @@
-.swiper-horizontal .swiper-button-next,
-.swiper-horizontal.swiper-rtl .swiper-button-prev,
-.swiper-horizontal.swiper-rtl ~ .swiper-button-prev,
-.swiper-horizontal ~ .swiper-button-next {
+.swiper-button-prev {
   left: auto;
-  right: var(--swiper-navigation-sides-offset, 4px);
+  left: var(--swiper-navigation-sides-offset, 95%);
   background-color: whitesmoke;
   color: black;
   padding: 5px;
-  top: 10%;
+  top: 102%;
   border-radius: 50px;
-  left: 80px;
+  left: 1800px;
+  margin-top: calc(0px - var(--swiper-navigation-size) / 2);
+  top: var(--swiper-navigation-top-offset, 102%);
+}
+.swiper-button-next {
+  left: auto;
+  right: var(--swiper-navigation-sides-offset, 95%);
+  background-color: whitesmoke;
+  color: black;
+  padding: 5px;
+  top: 100%;
+  border-radius: 50px;
+  left: 1800px;
+  margin-top: calc(0px - var(--swiper-navigation-size) / 2);
+  top: var(--swiper-navigation-top-offset, 102%);
 }

@@ -4,15 +4,16 @@
   box-sizing: border-box;
 }
 @font-face {
-  --font-family: yekan;
+  font-family: yekan;
   src: url(../font/Digikala-Regular.eot);
   src: url(../font/Digikala-Regular.ttf);
   src: url(../font/Digikala-Regular.woff);
   src: url(../font/Digikala-Regular.woff2);
+  font-weight: normal;
+  font-style: normal;
 }
 :root {
   --font-family: yekan;
-  font-size: x-large;
 }
 .wrapper {
   width: 100%;

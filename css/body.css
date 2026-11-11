@@ -1,0 +1,132 @@
+/* navbar */
+.main-center-navbar {
+  display: flex;
+  width: 59%;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6%;
+  padding: 20px;
+  margin: 0 auto;
+  height: 70%;
+}
+
+.main-center-navbar-products {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-center-navbar-products img {
+  display: block;
+  width: 75%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.img-nav-border {
+  display: block;
+  width: 75%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 90%;
+}
+.main-center-navbar-products a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.main-center-navbar-products p {
+  width: 110px;
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-weight: bold;
+  color: #3f4064;
+  text-align: center;
+  margin-top: 8px;
+}
+/* endnavbar */
+
+.main-center-tablighat-img {
+  margin: 20px auto;
+  display: flex;
+  width: 88%;
+  gap: 5%;
+  padding-right: 8%;
+}
+
+.main-center-tablighat-img a {
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.main-center-tablighat-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.tablighat-banners {
+  width: 100%;
+  max-width: 72%;
+  margin: 25px auto;
+  display: flex;
+  gap: 12px;
+}
+
+.tablighat-banner {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.tablighat-banner img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.products-item {
+  width: 75%;
+  margin: 20px auto;
+}
+
+.product-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 11px 0;
+}
+
+.products-icon {
+  width: 11%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.products-icon img {
+  width: 80%;
+  height: 70%;
+  object-fit: contain;
+  border-radius: 50%;
+  display: block;
+}
+
+.products-icon p {
+  font-family: var(--font-family);
+  font-size: 21px;
+  color: #3f4064;
+  text-align: center;
+  margin-top: 8px;
+}
