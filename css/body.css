@@ -1,4 +1,3 @@
-/* navbar */
 .main-center-navbar {
   display: flex;
   width: 59%;
@@ -47,8 +46,8 @@
   text-align: center;
   margin-top: 8px;
 }
-/* endnavbar */
 
+/* main */
 .main-center-tablighat-img {
   margin: 20px auto;
   display: flex;
@@ -116,7 +115,7 @@
 }
 
 .products-icon img {
-  width: 80%;
+  width: 77%;
   height: 70%;
   object-fit: contain;
   border-radius: 50%;
@@ -125,8 +124,217 @@
 
 .products-icon p {
   font-family: var(--font-family);
-  font-size: 21px;
+  font-size: 19px;
   color: #3f4064;
   text-align: center;
   margin-top: 8px;
+}
+/* red slider */
+/* بخش اصلی */
+
+.amazing-section {
+  width: 71%;
+  height: 460px;
+  background: #d32c4e;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  overflow: hidden;
+  font-family: var(--font-family);
+  margin-right: 383px;
+}
+
+/* پنل قرمز */
+
+.amazing-title {
+  width: 200px;
+  min-width: 200px;
+  height: 100%;
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 20px;
+  object-fit: cover;
+}
+
+.amazing-title h2 {
+  font-size: 40px;
+  font-family: var(--font-family);
+}
+.line-clamp {
+}
+.hame {
+  width: 84%;
+  height: 11%;
+  background-color: whitesmoke;
+  color: darkslategrey;
+  font-size: 19px;
+  padding: 13px;
+  border-radius: 12px;
+}
+.clock {
+  width: fit-content;
+  padding: 5px;
+  display: flex;
+  column-gap: 5px;
+  margin: 5px auto;
+  flex-direction: row-reverse;
+}
+.hours,
+.minutes,
+.seconds {
+  height: 25px;
+  background-color: whitesmoke;
+  padding: 0 5px;
+  line-height: 25px;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  font-family: var(--font-family);
+  border-radius: 5px;
+}
+.colon {
+  color: whitesmoke;
+}
+.discount-icon {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.amazing-title h3 {
+  font-size: 16px;
+}
+
+.amazing-title button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* اسلایدر */
+
+.amazingSwiper {
+  width: 100%;
+  border-radius: 18px;
+  height: 100%;
+}
+
+.product-card {
+  background: white;
+  padding: 12px;
+  margin-right: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: contain;
+}
+
+.product-card h3 {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.style-font- {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: 8px;
+}
+.font-style {
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  margin-right: 111px;
+  width: 22%;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.font-p {
+  font-size: 25px !important;
+  padding-right: 97px;
+  font-family: var(--font-family);
+}
+/* دکمه‌های اسلایدر */
+.font-p img {
+  width: 10%;
+  height: 10%;
+}
+.amazingSwiper {
+  position: relative;
+}
+
+.amazing-next,
+.amazing-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+
+  width: 60px;
+  height: 60px;
+
+  background: white;
+  border-radius: 50%;
+
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.amazing-next {
+  right: 10px;
+}
+
+.amazing-prev {
+  left: 10px;
+}
+
+.amazing-next::after,
+.amazing-prev::after {
+  font-family: swiper-icons;
+  font-size: 75px;
+  color: #555;
+}
+
+.amazing-next::after {
+  content: "next";
+}
+
+.amazing-prev::after {
+  content: "prev";
+}
+.amazing-next::after {
+  content: "‹";
+  font-family: Arial;
+  font-size: 30px;
+  color: #555;
+}
+
+.amazing-prev::after {
+  content: "›";
+  font-family: Arial;
+  font-size: 30px;
+  color: #555;
 }

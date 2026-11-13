@@ -1,0 +1,132 @@
+.inc {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inc-center {
+  width: 100%;
+  max-width: 1350px;
+  height: 300px;
+  background-color: #da2f4e;
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 20px 10px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.first{
+    background-color:#da2f4e ;
+}
+.swiper-slide-item{
+    width: 100%;
+    height: 100%;
+}
+.img-inc-1{
+    width: 88px !important;
+    height: 88px !important;
+    display: block;
+    margin: 10px auto;
+}
+.clock{
+    width: fit-content;
+    padding: 5px;
+    display: flex;
+    column-gap: 5px;
+    margin: 5px auto;
+    flex-direction: row-reverse;
+}
+.hours,.minutes,.seconds{
+    height: 25px;
+    background-color: whitesmoke;
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: var(--font-family);
+    border-radius: 5px;
+}
+.colon{
+    color: whitesmoke;
+}
+.img-inc-2{
+    width: 80px !important;
+    height: 80px !important;
+    display: block;
+    margin: 5px auto;
+}
+.inc-link{
+    color: whitesmoke;
+    font-family: var(--font-family);
+    font-size: 12px;
+    text-decoration: none;
+}
+.etc-inc{
+    padding-top: 15px;
+}
+.etc-inc img{
+    width: 132px;
+    height: 132px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.etc-inc p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.etc-inc .price{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding:0 5px;
+}
+.etc-inc .price .price-toman{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.etc-inc .price .price-discount{
+    padding: 2px 5px;
+    background-color: #da2f4e;
+    color: whitesmoke;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.etc-inc .price-real{
+    width: fit-content;
+    margin-right: auto;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: lightgrey;
+}

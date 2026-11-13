@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Yekan;
+    src: url(../fonts/yekan.woff);
+}
+:root{
+    --font-family:Yekan;
+}
+.wrapper{
+    width: 100%;
+}
+
